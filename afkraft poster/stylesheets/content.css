@@ -1,5 +1,5 @@
 .site {
-  opacity: 50%;
+  opacity: 1;
   overflow: hidden;
   position: relative;
   width: 1440px;
@@ -547,7 +547,7 @@
   height: 820px;
   display: block;
   position: relative;
-  top: 30px;
+  top: 0;
   left: 340px;
   background: url("../images/zaafro.svg");
 }
@@ -556,7 +556,7 @@
   height: 888px;
   display: block;
   position: relative;
-  top: -800px;
+  top: -860px;
   left: -190px;
   background: url("../images/green afro pc.svg");
   background-position: 0 top;
@@ -568,12 +568,17 @@
   height: 831px;
   display: block;
   position: relative;
-  top: -1680px;
+  top: -1710px;
   left: 970px;
   background: url("../images/red afro pc.svg");
   background-position: 0 top;
   animation: redmana 0.7s steps(1) infinite;
 }
+ .me {
+   font-size: 20px;
+   top:-300px;
+ }
+ 
 /* анимация фрэйм 1 головы */
 @keyframes aorange {
   0% {left:-450px;transform: rotate(-45deg);}
