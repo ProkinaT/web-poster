@@ -1,0 +1,779 @@
+.site {
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+  height: 3600px;
+  background: black;
+}
+/* фрэйм 1 */
+.frame1 {
+  position:absolute;
+  width: 1400px;
+  height: 900px;
+}
+.afkraft {
+  position: relative;
+  width: 552px;
+  height: 583.5px;
+  left: 246.5px;
+  top: 12px;
+}
+.zyablik {
+  position: relative;
+  width:644.79px;
+  height:559px;
+  left:125px;
+  top: 46px;
+
+}
+.borange {
+  width: 420px;
+  height: 460px;
+  display: block;
+  position: relative;
+  top: -545px;
+  left: -450px;
+  background: url("../images/head_orange_pc.svg");
+  animation: aorange 1.5s cubic-bezier(.43,.46,.5,.91) forwards;
+  animation-delay: 1.5s;
+}
+.bblue {
+  width: 420px;
+  height: 550px;
+  display: block;
+  position: relative;
+  top: -690px;
+  left: -400px;
+  background: url("../images/head blue pc.svg");
+  animation: ablue 1.5s cubic-bezier(.43,.46,.5,.91) forwards;
+  animation-delay: 2.5s;
+}
+.bpink {
+  width: 510px;
+  height: 550px;
+  display: block;
+  position: relative;
+  top: -1200px;
+  left: -510px;
+  background: url("../images/head pink pc.svg");
+  animation: apink 1.5s cubic-bezier(.43,.46,.5,.91) forwards;
+  animation-delay: 1s;
+}
+.bgreen {
+  width: 510px;
+  height: 550px;
+  display: block;
+  position: relative;
+  top: -1630px;
+  left: 1500px;
+  background: url("../images/head green pc.svg");
+  animation: agreen 1.5s cubic-bezier(.43,.46,.5,.91) forwards;
+  animation-delay: 1.5s;
+}
+.bred {
+  width: 590px;
+  height: 580px;
+  display: block;
+  position: relative;
+  top: -2530px;
+  left: 1500px;
+  background: url("../images/head red pc.svg");
+  animation: ared 1.5s cubic-bezier(.43,.46,.5,.91) forwards;
+  animation-delay: 1.5s;
+}
+/* фрэйм 2-3 */
+.frame23 {
+  position:absolute;
+  top:900px;
+  width: 1400px;
+  height: 1800px;
+}
+/* класс стафф */
+.stuff {
+  position:relative;
+  width: 1400px;
+  height: 1100px;
+}
+.ribbon {
+  width: 510px;
+  height: 550px;
+  display: block;
+  position: relative;
+  top: 90px;
+  left: -70px;
+  background: url("../images/ribbon pc.svg");
+  animation: ribbon 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.2s;
+}
+.button1 {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: relative;
+  top: -300px;
+  left: 230px;
+  transform: rotate(35deg);
+  background: url("../images/button pc.svg");
+  animation: button1 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.4s;
+}
+.button2 {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: relative;
+  top: -144px;
+  left: 390px;
+  transform: rotate(20deg);
+  background: url("../images/button pc.svg");
+  animation: button2 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+.button3 {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: relative;
+  top: -28px;
+  left: 785px;
+  transform: rotate(-60deg);
+  background: url("../images/button pc.svg");
+  animation: button3 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+.button4 {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: relative;
+  top: -170px;
+  left: 1218px;
+  transform: rotate(-6deg);
+  background: url("../images/button pc.svg");
+  animation: button4 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+
+.busket {
+  width: 500px;
+  height: 560px;
+  display: block;
+  position: relative;
+  top: -520px;
+  left: 39px;
+  background: url("../images/busket pc.svg");
+  animation: busket 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+.mask {
+  width: 540px;
+  height: 560px;
+  display: block;
+  position: relative;
+  top: -1350px;
+  left: 780px;
+  background: url("../images/mask pc.svg");
+  animation: mask 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.2s;
+}
+.vudu {
+  width: 500px;
+  height: 471px;
+  display: block;
+  position: relative;
+  top: -1950px;
+  left: 212px;
+  background: url("../images/vudu pc.png");
+  animation: vudu 2s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.2s;
+}
+.earingy {
+  width: 150px;
+  height: 200px;
+  display: block;
+  position: relative;
+  top: -1810px;
+  left: 1225px;
+  background: url("../images/earings y pc.svg");
+  animation: earingy 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+.earingg1 {
+  width: 400px;
+  height: 400px;
+  display: block;
+  position: relative;
+  top: -2290px;
+  left: 655px;
+  background: url("../images/earings g pc.svg");
+  animation: earingg1 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+.earingg2 {
+  width: 400px;
+  height: 400px;
+  display: block;
+  position: relative;
+  top: -2530px;
+  left: 750px;
+  transform: rotate(70deg);
+  background: url("../images/earings g pc.svg");
+  animation: earingg2 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+.jug {
+  width: 390px;
+  height: 390px;
+  display: block;
+  position: relative;
+  top: -3270px;
+  left: 520px;
+  background: url("../images/jug pc.svg");
+  transform: rotate(25deg);
+  animation: jug 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.3s;
+}
+.skirt {
+  width: 500px;
+  height: 500px;
+  display: block;
+  position: relative;
+  top: -3270px;
+  left: 420px;
+  background: url("../images/skirt pc.svg");
+  animation: skirt 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+/* класс части зелёные */
+.gparts {
+  position:relative;
+  top: -230px;
+  width: 850px;
+  height: 900px;
+}
+.ghead {
+  width: 350px;
+  height: 300px;
+  display: block;
+  position: relative;
+  top: 45px;
+  left: 125px;
+  background: url("../images/parts head green pc.svg");
+  animation: ghead 1s cubic-bezier(.76,.71,.45,0.1) forwards;
+  animation-delay: 5.4s;
+}
+.garmr {
+  width: 350px;
+  height: 300px;
+  display: block;
+  position: relative;
+  top: 265px;
+  left: 370px;
+  background: url("../images/parts arm r green pc.svg");
+  animation: garmr 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5s;
+}
+.garml {
+  width: 250px;
+  height: 300px;
+  display: block;
+  position: relative;
+  top: -450px;
+  left: 40px;
+  background: url("../images/parts arm l green  pc.svg");
+  animation: garml 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 5.6s;
+}
+.glegs {
+  width: 600px;
+  height: 600px;
+  display: block;
+  position: relative;
+  top: -900px;
+  left: 300px;
+  background: url("../images/parts legs green pc.svg");
+  animation: glegs 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 5.6s;
+}
+.gneck {
+  width: 450px;
+  height: 330px;
+  display: block;
+  position: relative;
+  top: -1050px;
+  left: 40px;
+  background: url("../images/parts neck green pc.svg");
+  animation: gneck 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5s;
+}
+.gtriangle {
+  width: 220px;
+  height: 110px;
+  display: block;
+  position: relative;
+  top: -1390px;
+  left: 80px;
+  background: url("../images/parts triangle green pc.svg");
+  animation: gtriangle 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5.4s;
+
+}
+.gline1 {
+  width: 100px;
+  height: 220px;
+  display: block;
+  position: relative;
+  top: -1585px;
+  left: 445px;
+  background: url("../images/parts line green.svg");
+  animation: gline1 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5.2s
+}
+.gline2 {
+  width: 100px;
+  height: 220px;
+  display: block;
+  position: relative;
+  top: -1825px;
+  left: 330px;
+  transform: rotate(-32deg);
+  background: url("../images/parts line green.svg");
+  animation: gline2 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5.2s
+}
+/* класс части красные */
+.rparts {
+  position:relative;
+  top: -1300px;
+  left: 550px;
+  width: 850px;
+  height: 1100px;
+}
+.rhead {
+  width: 350px;
+  height: 500px;
+  display: block;
+  position: relative;
+  top: -40px;
+  left: 280px;
+  background: url("../images/parts head red pc.svg");
+  animation: rhead 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 6.0s;
+}
+.rarmr {
+  width: 350px;
+  height: 300px;
+  display: block;
+  position: relative;
+  top: -30px;
+  left: 520px;
+  background: url("../images/parts arm red r pc.svg");
+  animation: rarmr 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 5.0s;
+}
+.rarml {
+  width: 250px;
+  height: 300px;
+  display: block;
+  position: relative;
+  top: -635px;
+  left: 550px;
+  background: url("../images/parts arm l pc.svg");
+  animation: rarml 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 5.8s;
+
+}
+.rlegs {
+  width: 400px;
+  height: 400px;
+  display: block;
+  position: relative;
+  top: -400px;
+  left: 120px;
+  background: url("../images/parts legs red pc.svg");
+  animation: rlegs 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5s;
+}
+.rneck {
+  width: 450px;
+  height: 330px;
+  display: block;
+  position: relative;
+  top: -1270px;
+  left: 240px;
+  background: url("../images/parts neck red pc.svg");
+  animation: rneck 1s cubic-bezier(.76,.71,.45,0.1) forwards;
+  animation-delay: 5.4s;
+}
+.rtriangle {
+  width: 220px;
+  height: 130px;
+  display: block;
+  position: relative;
+  top: -1190px;
+  left: 280px;
+  background: url("../images/parts triangle red pc.svg");
+  animation: rtriangle 1s cubic-bezier(.76,.71,.45,0.8) forwards;
+  animation-delay: 5.2s;
+}
+.rline1 {
+  width: 300px;
+  height: 220px;
+  display: block;
+  position: relative;
+  top: -1225px;
+  left: 450px;
+  background: url("../images/parts line red pc.svg");
+  animation: rline1 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5s;
+}
+.rline2 {
+  width: 340px;
+  height: 300px;
+  display: block;
+  position: relative;
+  top: -1720px;
+  left: 150px;
+  transform: rotate(-70deg);
+  background: url("../images/parts line red pc.svg");
+  animation: rline2 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 5.6s;
+}
+/* класс леттерс */
+.letters {
+  position:relative;
+  top: -2300px;
+  left: 0px;
+  width: 1440px;
+  height: 950px;
+}
+.a1 {
+  width: 160px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: 70px;
+  left: 60px;
+  animation: a1 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 5.8s;
+}
+.f1 {
+  width: 80px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: 100px;
+  left: 740px;
+  transform: rotate(50deg);
+  animation: f1 1s cubic-bezier(.76,.71,.45,0.1) forwards;
+  animation-delay: 5.4s;
+}
+.k {
+  width: 80px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: -420px;
+  left: 1275px;
+  transform: rotate(-10deg);
+  animation: k 1s cubic-bezier(.76,.71,.45,0.1) forwards;
+  animation-delay: 5.4s;
+}
+.r {
+  width: 80px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: -680px;
+  left: 420px;
+  transform: rotate(-20deg);
+  animation: r 1s cubic-bezier(.76,.71,.45,.8) forwards;
+  animation-delay: 5.8s;
+}
+.a2 {
+  width: 160px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: -450px;
+  left: 605px;
+  transform: rotate(-30deg);
+  animation: a2 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5.2s
+}
+.f2 {
+  width: 80px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: -490px;
+  left: 370px;
+  transform: rotate(-15deg);
+  animation: f2 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5s;
+}
+.t {
+  width: 80px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: -770px;
+  left: 1070px;
+  transform: rotate(-40deg);
+  animation: t 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5s;
+}
+.sign {
+  width: 80px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: -1180px;
+  left: 1280px;
+  transform: rotate(20deg);
+  animation: sign 1s cubic-bezier(.76,.71,.45,.81) forwards;
+  animation-delay: 5s;
+}
+/* фрэйм 4 */
+.frame4 {
+  position:absolute;
+  top:2700px;
+  width: 1400px;
+  height: 1800px;
+}
+.afro {
+  width: 720px;
+  height: 820px;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 340px;
+  background: url("../images/zaafro.svg");
+}
+.greenman {
+  width: 633px;
+  height: 888px;
+  display: block;
+  position: relative;
+  top: -860px;
+  left: -190px;
+  background: url("../images/green afro pc.svg");
+  background-position: 0 top;
+  animation: greenmana 0.7s steps(1) infinite;
+
+}
+.redman {
+  width: 586px;
+  height: 831px;
+  display: block;
+  position: relative;
+  top: -1710px;
+  left: 970px;
+  background: url("../images/red afro pc.svg");
+  background-position: 0 top;
+  animation: redmana 0.7s steps(1) infinite;
+}
+ .me {
+   font-size: 20px;
+   top:-300px;
+ }
+ 
+/* анимация фрэйм 1 головы */
+@keyframes aorange {
+  0% {left:-450px;transform: rotate(-45deg);}
+  100% {left: -100px; transform: rotate(0deg);}
+}
+@keyframes ablue {
+  0% {left:-400px;transform: rotate(-45deg);}
+  100% {left: -70px; transform: rotate(0deg);}
+}
+@keyframes apink {
+  0% {top: -920px; left:-510px; transform: rotate(-180deg);}
+  100% {top: -1200px; left: 260px;  transform: rotate(0deg);}
+}
+@keyframes agreen {
+  0% {left:1500px;transform: rotate(-180deg);}
+  100% {left: 730px; transform: rotate(0deg);}
+}
+@keyframes ared {
+  0% {top: -2590px; left: 1500px;transform: rotate(-180deg);}
+  100% {top: -2530px; left: 950px; transform: rotate(0deg);}
+}
+
+/* анимация фрэйм 23 */
+/* анимация класс стафф */
+@keyframes ribbon{
+  0% {top:90px; left: -70px;}
+  100% {top: 260px; left: -70px;}
+}
+@keyframes button1{
+  0% {top:-300px; left: 230px;}
+  100% {top:-110px; left: 240px;transform: rotate(380deg);}
+}
+@keyframes button2{
+  0% {top:-144px; left: 390px;}
+  50% {top:200px; left: 390px; transform: rotate(90deg);}
+  100% {top:380px; left: 380px;transform: rotate(0deg);}
+}
+@keyframes button3{
+  0% {top:-28px; left: 785px;}
+  50% {top:180px; left: 850px;}
+  100% {top:215px; left: 880px;transform: rotate(360deg)}
+}
+@keyframes button4{
+  0% {top:-170px; left: 1218px;}
+  100% {top:320px; left: 1258px;}
+}
+@keyframes busket{
+  0% {top:-520px; left: 39px;}
+  100% {top:-330px; left: -30px; transform: rotate(15deg);}
+}
+@keyframes mask{
+  0% {top:-1350px;left: 780px;}
+  100% {top:-1150px;left: 920px; transform: rotate(75deg);}
+}
+@keyframes vudu{
+  0% {top:-1950px;}
+  25% {top:-1850px; transform: rotate(45deg);}
+  50% {top:-1650px; transform: rotate(180deg);}
+  100% {top:-1520px; transform: rotate(200deg);}
+}
+@keyframes earingy{
+  0% {top:-1810px; left: 1225px;}
+  100% {top:-1550px; left: 1135px;}
+}
+@keyframes earingg1{
+  0% {top:-2290px; left: 655px;}
+  100% {top:-1990px; left: 670px;}
+}
+@keyframes earingg2{
+  0% {top:-2530px; left: 750px;}
+  100% {top:-2130px; left: 780px;}
+}
+@keyframes jug{
+  0% {  top: -3270px; left: 520px;}
+  100% {top:-3090px; left: 580px; transform: rotate(-38deg);}
+}
+@keyframes skirt{
+  0% {top:-3270px; left: 420px;}
+  100% {top:-3170px; left: 440px;}
+}
+/* анимация класс gparts */
+@keyframes ghead{
+  0% {top:45px; left: 125px;}
+  100% {top:225px; left: 105px;}
+}
+@keyframes garmr{
+  0% {top:265px; left:370px;}
+  100% {top:360px; left: 400px;transform: rotate(130deg);}
+}
+@keyframes garml{
+  0% {top:-450px; left:40px;}
+  100% {top:-300px; left: 10px;}
+}
+@keyframes glegs{
+  0% {top:-900px; left:300px;}
+  50% {top:-850px; left:200px; transform: rotate(40deg);}
+  75% {top:-800px; left:250px; transform: rotate(60deg);}
+  100% {top:-770px; left: 270px; transform: rotate(80deg);}
+}
+@keyframes gneck{
+  0% {top:-1050px; left:40px;}
+  50% {top:-940px; transform: rotate(-90deg);}
+  100% {top:-840px; left: -120px;transform: rotate(-180deg);}
+}
+@keyframes gtriangle{
+  0% {top:-1390px; left: 80px;}
+  100% {top:-1260px; left: 40px;}
+}
+@keyframes gline1{
+  0% {top:-1585px; left: 445px;}
+  100% {top:-1335px; left: 465px;}
+}
+@keyframes gline2{
+  0% {top:-1825px; left: 330px;}
+  50% {top:-1580px;}
+  100% {top:-1580px; left: 320px;}
+}
+/* анимация класс rparts */
+@keyframes rhead{
+  0% {top:-40px; left: 280px;}
+  20% {left: 300px;transform: rotate(20deg);}
+  100% {top:40px; left: 320px;}
+}
+@keyframes rarmr{
+  0% {top:-30px; left:550px;}
+  100% {top:170px; left: 520px;transform: rotate(120deg);}
+}
+@keyframes rarml{
+  0% {top:-635px; left:550px;}
+  100% {top:-435px; left: 470px;}
+}
+@keyframes rlegs{
+  0% {top:-400px; left:120px;}
+  100% {top:-340px; left: 92px;}
+}
+@keyframes rneck{
+  0% {top:-1270px; left:240px;}
+  100% {top:-1080px; left: 200px;}
+}
+@keyframes rtriangle{
+  0% {top:-1190px; left:280px;}
+  50% {top:-1050px; left:400px;transform: rotate(-15deg); }
+  100% {top:-1040px; left:410px;transform: rotate(-30deg);}
+}
+@keyframes rline1{
+  0% {top:-1225px; left:450px;}
+  100% {top:-1130px; left: 485px;}
+}
+@keyframes rline2{
+  0% {top:-1720px; left: 150px;}
+  0% {top:-1570px; left: 150px; transform: rotate(-15deg);}
+  100% {top:-1530px; left: 220px; transform: rotate(-15deg)}
+}
+/* анимация класс letters */
+@keyframes a1{
+  0% {top:70px; left:60px;}
+  100% {top:260px; left:40px;transform: rotate(-20deg);}
+}
+@keyframes f1{
+  0% {top:100px; left: 740px;}
+  100% {top:260px; left:700px;transform: rotate(55deg);}
+}
+@keyframes k{
+  0% {top:-420px; left: 1275px;}
+  100% {top:-50px; left:1295px;}
+}
+@keyframes r{
+  0% {top:-680px; left: 420px;}
+  50% {top:-630px; left: 420px;transform: rotate(90deg); }
+  100% {top:-480px; left:430px;}
+}
+@keyframes a2{
+  0% {top:-450px; left:605px;}
+  50% {top:-330px;transform: rotate(5deg);}
+  100% {top:-330px; left:565px;}
+}
+@keyframes f2{
+  0% {top:-490px; left:370px;}
+  100% {top:-430px; left:330px;}
+}
+@keyframes t{
+  0% {top:-770px; left:1070px;}
+  100% {top:-710px; left: 1050px;}
+}
+@keyframes sign{
+  0% {top:-1180px; left:1280px;}
+  100% {top:-1020px; left: 1310px;}
+}
+
+/* анимация фрэйм 4 */
+@keyframes greenmana{
+  0% {background-position: 0 top;}
+  50% {background-position: -633px top;}
+}
+@keyframes redmana{
+  0% {background-position: 0 top;}
+  50% {background-position: -586px top;}
+}
