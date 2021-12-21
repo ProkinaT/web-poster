@@ -1,0 +1,397 @@
+@media all and (min-device-width: 361px) and (max-device-width: 414px){
+  .frame1 {
+    position:absolute;
+    width: 414px;
+    height: 896px;
+  }
+  .afkraft {
+    position: relative;
+    width: 389px;
+    height: 643px;
+    left: 10px;
+    top: 20px;
+    background: url("../images/afkraft iph.svg");
+  }
+  .zyablik {
+   display: none;
+   }
+  .borange {
+    width: 193px;
+    height: 223px;
+    top: -258px;
+    background: url("../images/head orange iph.svg");
+  }
+  .bblue {
+    width: 290px;
+    height: 270px;
+    top: -325px;
+    background: url("../images/head blue iph.svg");
+  }
+  .bpink {
+    width: 200px;
+    height: 210px;
+    top: -450px;
+
+    background: url("../images/head pink iph.svg");
+  }
+  .bgreen {
+    width: 200px;
+    height: 200px;
+    top: -600px;
+    background: url("../images/head green iph.svg");
+
+  }
+  .bred {
+    width: 200px;
+    height: 200px;
+    top: -970px;
+    background: url("../images/head red iph.svg");
+  }
+  /* фрэйм 2-3 */
+  .frame23 {
+    position:absolute;
+    top: 896px;
+    width: 414px;
+    height: 1792px;
+  }
+  /* класс стафф */
+  .stuff {
+    position:relative;
+    width: 414px;
+    height: 1792px;
+  }
+  .ribbon {
+    width: 250px;
+    height: 290px;
+    top: 750px;
+    left: -90px;
+    transform: rotate(130deg);
+    background: url("../images/ribbon tbl.svg");;
+  }
+  .button1 {
+    width: 60px;
+    height: 60px;
+    top: 470px;
+    left: 160px;
+    background: url("../images/button tbl.svg");
+  }
+  .button2 {
+    width: 60px;
+    height: 60px;
+    top: 725px;
+    left: 320px;
+    transform: rotate(-30deg);
+    background: url("../images/button tbl.svg");
+  }
+  .button3 {
+    width: 60px;
+    height: 60px;
+    top: 30px;
+    left: 170px;
+    background: url("../images/button tbl.svg");
+  }
+  .button4 {
+    display: none;
+  }
+
+  .busket {
+    width: 500px;
+    height: 560px;
+    display: block;
+    position: relative;
+    top: -140px;
+    left: -150px;
+    transform: rotate(45deg);
+    background: url("../images/busket tbl.svg");
+    animation: busket 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .mask {
+    width: 340px;
+    height: 360px;
+    display: block;
+    position: relative;
+    top: -900px;
+    left: 110px;
+    transform: rotate(-45deg);
+    background: url("../images/mask tbl.svg");
+    animation: mask 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.2s;
+  }
+  .vudu {
+    width: 250px;
+    height: 450px;
+    top: -1370px;
+    left: 0px;
+    background: url("../images/vudu iph.svg");
+  }
+  .earingy {
+    width: 200px;
+    height: 200px;
+    top: -1190px;
+    left: 0px;
+    background: url("../images/earings y tbl.svg");
+
+  }
+  .earingg1 {
+    width: 140px;
+    height: 200px;
+    top: -1680px;
+    left: 205px;
+    background: url("../images/earings g tbl.svg");
+
+  }
+  .earingg2 {
+    width: 140px;
+    height: 200px;
+    top: -1375px;
+    left: 90px;
+    transform: rotate(-40deg);
+    background: url("../images/earings g tbl.svg");
+
+  }
+  .jug {
+    width: 187px;
+    height: 250px;
+    top: -1940px;
+    left: 245px;
+    background: url("../images/jug tbl.svg");
+    transform: rotate(-130deg);
+
+  }
+  .skirt {
+    width: 500px;
+    height: 450px;
+    top: -2020px;
+    left: 160px;
+    transform: rotate(-55deg);
+    background: url("../images/skirt tbl.svg");
+
+  }
+  /* класс части зелёные */
+  .gparts {
+    position:relative;
+    top: -900px;
+    width: 414px;
+    height: 896px;
+  }
+  .ghead {
+    width: 250px;
+    height: 250px;
+    top: 110px;
+    left: 70px;
+    transform: rotate(20deg);
+    background: url("../images/parts head green pc2.svg");
+  }
+  .garmr {
+    width: 350px;
+    height: 300px;
+    top: -20px;
+    left: -40px;
+    background: url("../images/parts arm r green pc2.svg");
+
+  }
+  .garml {
+  display: none;
+  }
+  .glegs {
+    width: 390px;
+    height: 430px;
+    top: -80px;
+    left: -120px;
+    transform: rotate(30deg);
+    background: url("../images/parts legs green pc2.svg");
+
+  }
+  .gneck {
+    width: 360px;
+    height: 330px;
+    top: -680px;
+    left: 130px;
+    transform: rotate(-40deg);
+    background: url("../images/parts neck green pc2.svg");
+
+  }
+  .gtriangle {
+    width: 180px;
+    height: 180px;
+    top: -950px;
+    left: 0px;
+    transform: rotate(150deg);
+    background: url("../images/parts triangle green pc2.svg");
+
+
+  }
+  .gline1 {
+    width: 200px;
+    height: 100px;
+    top: -890px;
+    left: 140px;
+    background: url("../images/parts line green iph.svg");
+
+  }
+  .gline2 {
+    width: 200px;
+    height: 120px;
+    top: -940px;
+    left: 270px;
+    transform: rotate(70deg);
+    background: url("../images/parts line green iph.svg");
+  }
+  /* класс части красные */
+  .rparts {
+    display: none;
+  }
+
+  /* класс леттерс */
+  .letters {
+    display: none
+  }
+  /* фрэйм 4 */
+  .frame4 {
+    position:absolute;
+    top: 2688px;
+    width: 414px;
+    height: 896px;
+  }
+  .afro {
+    width: 303.48px;
+    height: 836.83px;
+    top: 10px;
+    left: 100px;
+    background: url("../images/zaafro iph.svg");
+  }
+  .greenman {
+    width: 510.32px;
+    height: 715.9px;
+    top: -750px;
+    left: -250px;
+    background: url("../images/green afro iph.svg");
+
+  }
+  .redman {
+    display: none;
+  }
+  .futter {
+    display: block;
+    position: relative;
+    top: -730px;
+    width: 420px;
+  }
+  .me {
+   width: 340px;
+   height: 30px;
+   font-size: 25px;
+   top: -690px;
+   }
+  /* анимация фрэйм 1 головы */
+  @keyframes aorange {
+    0% {left:-100px;transform: rotate(-45deg);}
+    100% {left: 0px; transform: rotate(0deg);}
+  }
+  @keyframes ablue {
+    0% {left:-200px;transform: rotate(-45deg);}
+    100% {left: -100px; transform: rotate(0deg);}
+  }
+  @keyframes apink {
+    0% {left:-310px; transform: rotate(-180deg);}
+    100% { left: 60px;  transform: rotate(0deg);}
+  }
+  @keyframes agreen {
+    0% {left: 324px;transform: rotate(-180deg);}
+    100% {left: 250px; transform: rotate(0deg);}
+  }
+   @keyframes ared {
+    0% { left: 424px;transform: rotate(-180deg);}
+    100% {left: 170px; transform: rotate(-15deg);}
+  }
+  /* анимация класс стафф */
+   /* @keyframes ribbon{
+    0% {top:490px; left: -30px;}
+    100% {top: 600px; left: -80px;}
+  } */
+  /* @keyframes button1{
+    0% {top:320px; left: 260px;}
+    100% {top: 520px; left: 190px;}
+  } */
+  /* @keyframes button2{
+    0% {top:-64px; left: 310px;}
+    100% {top:240px; left: 390px;}
+  } */
+  /* @keyframes button3{
+    0% {top:330px; left: 570px;}
+    100% {top:430px; left: 460px;transform: rotate(0deg);}
+  } */
+  /* @keyframes busket{
+    0% {top:60px; left: -100px;}
+    100% {top:170px; left: -140px;}
+  } */
+  /* @keyframes mask{
+    0% {top:-980px;left: 360px;}
+    100% {top:-630px;left: 420px; transform: rotate(0deg);}
+  } */
+  /* @keyframes vudu{
+    0% {top:-1420px; left: -40px;}
+    100% {top:-1220px; left: -40px; transform: rotate(0deg);}
+  } */
+  /* @keyframes earingy{
+    0% {top:-1500px; left: 425px;}
+    100% {top:-1300px; left: 465px;}
+  } */
+  /* @keyframes earingg1{
+    0% {top:-1950px; left: 465px;}
+    100% {top:-1610px; left: 435px;}
+  } */
+  /* @keyframes earingg2{
+    0% {top:-2250px; left: 480px;}
+    100% {top:-1850px; left: 500px;}
+  } */
+  /* @keyframes jug{
+    0% {  top: -2510px; left: 320px;}
+    100% {top:-2180px; left: 300px;}
+  } */
+  /* @keyframes skirt{
+    0% {top:-2270px; left: 170px;}
+    100% {top:-2230px; left: 90px;}
+  } */
+  /* анимация класс gparts */
+  /* @keyframes ghead{
+    0% {top:45px; left: -60px;}
+    100% {top: 160px; left: -90px; transform: rotate(65deg);}
+  } */
+  /* @keyframes garmr{
+    0% {top:295px; left:210px;}
+    100% {top:350px; left: 190px;}
+  } */
+/*
+  @keyframes glegs{
+    0% {top:-500px; left:40px;}
+    100% {top:-390px; left: 90px; transform: rotate(15deg);}
+  } */
+
+  /* @keyframes gtriangle{
+    0% {top:-1170px;}
+    100% {top:-1010px;}
+  } */
+  /* @keyframes gline1{
+    0% {top:-1155px; left: 445px;}
+    100% {top:-975px; left: 480px;}
+  } */
+  /* @keyframes gline2{
+    0% {top:-1500px; left: 120px;}
+    100% {top:-1520px; left: 120px; transform: rotate(30deg);}
+  } */
+
+
+  /* анимация фрэйм 4 */
+  @keyframes greenmana{
+    0% {background-position: 0 top;}
+    50% {background-position: -510.32px top;}
+  }
+  @keyframes redmana{
+    0% {background-position: 0 top;}
+    50% {background-position: -586px top;}
+  }
+
+
+}
