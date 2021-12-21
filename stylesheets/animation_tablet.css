@@ -1,0 +1,610 @@
+@media all and (min-device-width: 415px) and (max-device-width: 768px){
+  .frame1 {
+    position:absolute;
+    width: 768px;
+    height: 1024px;
+  }
+  .afkraft {
+    position: relative;
+    width: 469px;
+    height: 750px;
+    left: 20px;
+    top: 20px;
+    background: url("../images/afkraft tbl.svg");
+  }
+  .zyablik {
+    position: relative;
+    width: 357px;
+    height: 556px;
+    left: 360px;
+    top: -700px;
+    background: url("../images/zyablik tbl.svg");
+  }
+  .borange {
+    width: 279px;
+    height: 340px;
+    top: -864px;
+    background: url("../images/head orange pc4.svg");
+  }
+  .bblue {
+    width: 270px;
+    height: 370px;
+    top: -995px;
+    background: url("../images/head blue pc4.svg");
+  }
+  .bpink {
+    width: 350px;
+    height: 370px;
+    top: -1260px;
+
+    background: url("../images/head pink pc4.svg");
+  }
+  .bgreen {
+    width: 350px;
+    height: 350px;
+    top: -1630px;
+
+    transform: rotate(20deg);
+    background: url("../images/head green pc4.svg");
+
+  }
+  .bred {
+    width: 390px;
+    height: 390px;
+    background: url("../images/head red pc4.svg");
+  }
+  /* фрэйм 2-3 */
+  .frame23 {
+    position:absolute;
+    top: 1024px;
+    width: 768px;
+    height: 2048px;
+  }
+  /* класс стафф */
+  .stuff {
+    position:relative;
+    width: 1400px;
+    height: 1100px;
+  }
+  .ribbon {
+    width: 250px;
+    height: 290px;
+    display: block;
+    position: relative;
+    top: 490px;
+    left: -30px;
+    transform: rotate(-130deg);
+    background: url("../images/ribbon tbl.svg");
+    animation: ribbon 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.2s;
+  }
+  .button1 {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    top: 320px;
+    left: 260px;
+    background: url("../images/button tbl.svg");
+    animation: button1 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.4s;
+  }
+  .button2 {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    top: -64px;
+    left: 310px;
+    background: url("../images/button tbl.svg");
+    animation: button2 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .button3 {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    top: 330px;
+    left: 570px;
+    transform: rotate(-80deg);
+    background: url("../images/button tbl.svg");
+    animation: button3 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .button4 {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    top: 90px;
+    left: 620px;
+    transform: rotate(-30deg);
+    background: url("../images/button tbl.svg");
+    animation: button4 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+
+  .busket {
+    width: 500px;
+    height: 560px;
+    display: block;
+    position: relative;
+    top: 60px;
+    left: -100px;
+    background: url("../images/busket tbl.svg");
+    animation: busket 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .mask {
+    width: 340px;
+    height: 360px;
+    display: block;
+    position: relative;
+    top: -980px;
+    left: 360px;
+    transform: rotate(-45deg);
+    background: url("../images/mask tbl.svg");
+    animation: mask 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.2s;
+  }
+  .vudu {
+    width: 500px;
+    height: 801px;
+    display: block;
+    position: relative;
+    top: -1420px;
+    left: -40px;
+    transform: rotate(30deg);
+    background: url("../images/vudu tbl.svg");
+    animation: vudu 2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.2s;
+  }
+  .earingy {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    top: -1500px;
+    left: 425px;
+    background: url("../images/earings y tbl.svg");
+    animation: earingy 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .earingg1 {
+    width: 140px;
+    height: 200px;
+    display: block;
+    position: relative;
+    top: -1950px;
+    left: 465px;
+    background: url("../images/earings g tbl.svg");
+    animation: earingg1 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .earingg2 {
+    width: 140px;
+    height: 200px;
+    display: block;
+    position: relative;
+    top: -2250px;
+    left: 480px;
+    transform: rotate(-70deg);
+    background: url("../images/earings g tbl.svg");
+    animation: earingg2 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .jug {
+    width: 187px;
+    height: 250px;
+    display: block;
+    position: relative;
+    top: -2510px;
+    left: 320px;
+    background: url("../images/jug tbl.svg");
+    transform: rotate(-154deg);
+    animation: jug 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.3s;
+  }
+  .skirt {
+    width: 500px;
+    height: 450px;
+    display: block;
+    position: relative;
+    top: -2470px;
+    left: 170px;
+    background: url("../images/skirt tbl.svg");
+    animation: skirt 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  /* класс части зелёные */
+  .gparts {
+    position:relative;
+    top: -140px;
+    width: 700px;
+    height: 900px;
+  }
+  .ghead {
+    width: 350px;
+    height: 300px;
+    display: block;
+    position: relative;
+    top: 45px;
+    left: -60px;
+    background: url("../images/parts head green pc.svg");
+    animation: ghead 1s cubic-bezier(.76,.71,.45,0.1) forwards;
+    animation-delay: 5.4s;
+  }
+  .garmr {
+    width: 350px;
+    height: 300px;
+    display: block;
+    position: relative;
+    top: 295px;
+    left: 210px;
+    background: url("../images/parts arm r green pc.svg");
+    animation: garmr 1s cubic-bezier(.76,.71,.45,.81) forwards;
+    animation-delay: 5s;
+  }
+  .garml {
+    display: none;
+
+  }
+  .glegs {
+    width: 600px;
+    height: 600px;
+    display: block;
+    position: relative;
+    top: -500px;
+    left: 40px;
+    background: url("../images/parts legs green pc.svg");
+    animation: glegs 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 5.6s;
+  }
+  .gneck {
+    width: 450px;
+    height: 330px;
+    display: block;
+    position: relative;
+    top: -710px;
+    left: -60px;
+    transform: rotate(-50deg);
+    background: url("../images/parts neck green pc.svg");
+    animation: gneck 1s cubic-bezier(.76,.71,.45,.81) forwards;
+    animation-delay: 5s;
+    animation-play-state: paused;
+  }
+  .gtriangle {
+    width: 220px;
+    height: 110px;
+    display: block;
+    position: relative;
+    top: -1170px;
+    left: -60px;
+    transform: rotate(99deg);
+    background: url("../images/parts triangle green pc.svg");
+    animation: gtriangle 1s cubic-bezier(.76,.71,.45,.81) forwards;
+    animation-delay: 5.4s;
+
+  }
+  .gline1 {
+    width: 100px;
+    height: 200px;
+    display: block;
+    position: relative;
+    top: -1155px;
+    left: 445px;
+    background: url("../images/parts line green.svg");
+    animation: gline1 1s cubic-bezier(.76,.71,.45,.81) forwards;
+    animation-delay: 5.2s
+  }
+  .gline2 {
+    width: 100px;
+    height: 220px;
+    display: block;
+    position: relative;
+    top: -1500px;
+    left: 120px;
+    transform: rotate(-70deg);
+    background: url("../images/parts line green.svg");
+    animation: gline2 1s cubic-bezier(.76,.71,.45,.81) forwards;
+    animation-delay: 5.2s
+  }
+  /* класс части красные */
+  .rparts {
+    position:relative;
+    top: -1100px;
+    left: 0px;
+    width: 850px;
+    height: 1100px;
+  }
+  .rhead {
+    width: 350px;
+    height: 500px;
+    display: block;
+    position: relative;
+    top: -40px;
+    left: 350px;
+    background: url("../images/parts head red pc.svg");
+    animation: rhead 1.2s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 6.0s;
+  }
+  .rarmr {
+    display: none;
+  }
+  .rarml {
+    width: 250px;
+    height: 300px;
+    display: block;
+    position: relative;
+    top: -430px;
+    left: 250px;
+    background: url("../images/parts arm l pc.svg");
+    animation: rarml 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 5.8s;
+
+  }
+  .rlegs {
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: relative;
+    top: -20px;
+    left: 120px;
+    background: url("../images/parts legs red pc.svg");
+    animation: rlegs 1s cubic-bezier(.76,.71,.45,.81) forwards;
+    animation-delay: 5s;
+  }
+  .rneck {
+    width: 450px;
+    height: 330px;
+    display: block;
+    position: relative;
+    top: -450px;
+    left: 440px;
+    transform: rotate(80deg);
+    background: url("../images/parts neck red pc.svg");
+    animation: rneck 1s cubic-bezier(.76,.71,.45,0.1) forwards;
+    animation-delay: 5.4s;
+
+  }
+  .rtriangle {
+    width: 220px;
+    height: 130px;
+    display: block;
+    position: relative;
+    top: -1140px;
+    left: 550px;
+    transform: rotate(120deg);
+    background: url("../images/parts triangle red pc.svg");
+    animation: rtriangle 1s cubic-bezier(.76,.71,.45,0.8) forwards;
+    animation-delay: 5.2s;
+  }
+  .rline1 {
+    width: 300px;
+    height: 220px;
+    display: block;
+    position: relative;
+    top: -1000px;
+    left: -70px;
+    transform: rotate(30deg);
+    background: url("../images/parts line red pc.svg");
+    animation: rline1 1s cubic-bezier(.76,.71,.45,.81) forwards;
+    animation-delay: 5s;
+  }
+  .rline2 {
+    width: 340px;
+    height: 300px;
+    display: block;
+    position: relative;
+    top: -1390px;
+    left: 475px;
+    transform: rotate(-75deg);
+    background: url("../images/parts line red pc.svg");
+    animation: rline2 1s cubic-bezier(.76,.71,.45,.8) forwards;
+    animation-delay: 5.6s;
+  }
+  /* класс леттерс */
+  .letters {
+    display: none
+  }
+  /* фрэйм 4 */
+  .frame4 {
+    position:absolute;
+    top: 3072px;
+    width: 768px;
+    height: 1024px;
+  }
+  .afro {
+    width: 473.11px;
+    height: 952.3px;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 140px;
+    background: url("../images/zaafro tbl.svg");
+  }
+  .greenman {
+    width: 633px;
+    height: 888px;
+    display: block;
+    position: relative;
+    top: -860px;
+    left: -330px;
+    background: url("../images/green afro pc.svg");
+    background-position: 0 top;
+    animation: greenmana 0.7s steps(1) infinite;
+
+  }
+  .redman {
+    width: 586px;
+    height: 831px;
+    display: block;
+    position: relative;
+    top: -1710px;
+    left: 460px;
+    background: url("../images/red afro pc.svg");
+    background-position: 0 top;
+    animation: redmana 0.7s steps(1) infinite;
+  }
+  .futter {
+    display: block;
+    position: relative;
+    top: -1730px;
+    width: 778px;
+  }
+  .me {
+  width: 340px;
+  height: 30px;
+  font-size: 25px;
+  top: -1685px;
+}
+  /* анимация фрэйм 1 головы */
+  @keyframes aorange {
+    0% {left:-350px;transform: rotate(-45deg);}
+    100% {left: -10px; transform: rotate(0deg);}
+  }
+  @keyframes ablue {
+    0% {left:-200px;transform: rotate(-45deg);}
+    100% {left: 0px; transform: rotate(0deg);}
+  }
+  @keyframes apink {
+    0% {left:-410px; transform: rotate(-180deg);}
+    100% { left: 180px;  transform: rotate(0deg);}
+  }
+  @keyframes agreen {
+    0% {left: 824px;transform: rotate(-180deg);}
+    100% {left: 518px; transform: rotate(20deg);}
+  }
+   @keyframes ared {
+    0% {top: -2210px; left: 824px;transform: rotate(-180deg);}
+    100% {top: -2210px; left: 254px; transform: rotate(0deg);}
+  }
+  /* анимация класс стафф */
+   @keyframes ribbon{
+    0% {top:490px; left: -30px;}
+    100% {top: 600px; left: -80px;}
+  }
+  @keyframes button1{
+    0% {top:320px; left: 260px;}
+    100% {top: 520px; left: 190px;}
+  }
+  @keyframes button2{
+    0% {top:-64px; left: 310px;}
+    100% {top:240px; left: 390px;}
+  }
+  @keyframes button3{
+    0% {top:330px; left: 570px;}
+    100% {top:430px; left: 460px;transform: rotate(0deg);}
+  }
+  @keyframes button4{
+    0% {top:90px; left: 620px;}
+    100% {top:500px; left: 580px;transform: rotate(-80deg);}
+  }
+  @keyframes busket{
+    0% {top:60px; left: -100px;}
+    100% {top:170px; left: -140px;}
+  }
+  @keyframes mask{
+    0% {top:-980px;left: 360px;}
+    100% {top:-630px;left: 420px; transform: rotate(0deg);}
+  }
+  @keyframes vudu{
+    0% {top:-1420px; left: -40px;}
+    100% {top:-1220px; left: -40px; transform: rotate(0deg);}
+  }
+  @keyframes earingy{
+    0% {top:-1500px; left: 425px;}
+    100% {top:-1300px; left: 465px;}
+  }
+  @keyframes earingg1{
+    0% {top:-1950px; left: 465px;}
+    100% {top:-1610px; left: 435px;}
+  }
+  @keyframes earingg2{
+    0% {top:-2250px; left: 480px;}
+    100% {top:-1850px; left: 500px;}
+  }
+  @keyframes jug{
+    0% {  top: -2510px; left: 320px;}
+    100% {top:-2180px; left: 300px;}
+  }
+  @keyframes skirt{
+    0% {top:-2270px; left: 170px;}
+    100% {top:-2230px; left: 90px;}
+  }
+  /* анимация класс gparts */
+  @keyframes ghead{
+    0% {top:45px; left: -60px;}
+    100% {top: 160px; left: -90px; transform: rotate(65deg);}
+  }
+  @keyframes garmr{
+    0% {top:295px; left:210px;}
+    100% {top:350px; left: 190px;}
+  }
+
+  @keyframes glegs{
+    0% {top:-500px; left:40px;}
+    100% {top:-390px; left: 90px; transform: rotate(15deg);}
+  }
+
+  @keyframes gtriangle{
+    0% {top:-1170px;}
+    100% {top:-1010px;}
+  }
+  @keyframes gline1{
+    0% {top:-1155px; left: 445px;}
+    100% {top:-975px; left: 480px;}
+  }
+  @keyframes gline2{
+    0% {top:-1500px; left: 120px;}
+    100% {top:-1520px; left: 120px; transform: rotate(30deg);}
+  }
+  /* анимация класс rparts */
+  @keyframes rhead{
+    0% {top:-40px; left: 350px;}
+    100% {top:140px; left: 420px;}
+  }
+  @keyframes rarmr{
+    0% {top:-30px; left:550px;}
+    100% {top:170px; left: 520px;transform: rotate(120deg);}
+  }
+  @keyframes rarml{
+    0% {left:250px;}
+    100% {left: 345px; transform: rotate(40deg);}
+  }
+  @keyframes rlegs{
+    0% {left:120px;}
+    100% {left: 140px; transform: rotate(20deg);}
+  }
+  @keyframes rneck{
+    0% {top:-450px; left:440px;}
+    100% {top:-410px; left: 430px; transform: rotate(100deg);}
+  }
+
+  @keyframes rtriangle{
+    0% {top:-1140px; left:550px;}
+    100% {top:-980px; left:570px;transform: rotate(250deg);}
+  }
+  @keyframes rline1{
+    0% {top:-1000px; left: -70px;}
+    50% {top:-900px; left: -120px;transform: rotate(40deg);}
+    100% {top:-780px; left: -50px; transform: rotate(5deg);}
+  }
+  @keyframes rline2{
+    0% {top: -1390px; left: 475px;}
+    100% {top:-1320px; left: 430px; transform: rotate(75deg);}
+  }
+
+
+  /* анимация фрэйм 4 */
+  @keyframes greenmana{
+    0% {background-position: 0 top;}
+    50% {background-position: -633px top;}
+  }
+  @keyframes redmana{
+    0% {background-position: 0 top;}
+    50% {background-position: -586px top;}
+  }
+
+}
