@@ -2,8 +2,13 @@
 @import 'content.css';
 @import 'layout.css';
 @import 'responsive.css';
+@import 'animation_pc_1920_1080.css';
+@import 'animation_pc_1366_768.css';
+@import 'animation_pc_1024_768.css';
+@import 'animation_tablet.css';
+@import 'animation_iphone.css';
+@import 'animation_android.css';
 @font-face {
-  //Zyablik
-  font-family:"Zyablik";
-  src:url("../fonts/Zyablik.ttf") format("truetype");
-}
+   font-family: "Zyablik";
+   src: url(../fonts/Zyablik-Regular.ttf) format("truetype");
+  }
