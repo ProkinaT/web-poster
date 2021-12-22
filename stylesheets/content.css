@@ -1,5 +1,5 @@
 .site {
-  opacity: 50%;
+  opacity: 1;
   overflow: hidden;
   position: relative;
   width: 1440px;
@@ -601,7 +601,7 @@ position: relative;
 }
 
 /* анимация фрэйм 1 головы */
-/* @keyframes aorange {
+@keyframes aorange {
   0% {left:-450px;transform: rotate(-45deg);}
   100% {left: -100px; transform: rotate(0deg);}
 }
@@ -620,11 +620,11 @@ position: relative;
 @keyframes ared {
   0% {top: -3150px; left: 1500px;transform: rotate(-180deg);}
   100% {top: -3090px; left: 950px; transform: rotate(0deg);}
-} */
+}
 
 /* анимация фрэйм 23 */
 /* анимация класс стафф */
- /* @keyframes ribbon{
+  @keyframes ribbon{
   0% {top:90px; left: -70px;}
   100% {top: 260px; left: -70px;}
 }
@@ -679,9 +679,9 @@ position: relative;
 @keyframes skirt{
   0% {top:-3270px; left: 420px;}
   100% {top:-3170px; left: 440px;}
-} */
+}
 /* анимация класс gparts */
-/* @keyframes ghead{
+ @keyframes ghead{
   0% {top:45px; left: 125px;}
   100% {top:225px; left: 105px;}
 }
@@ -716,9 +716,9 @@ position: relative;
   0% {top:-1825px; left: 330px;}
   50% {top:-1580px;}
   100% {top:-1580px; left: 320px;}
-} */
+}
 /* анимация класс rparts */
-/* @keyframes rhead{
+ @keyframes rhead{
   0% {top:-40px; left: 280px;}
   20% {left: 300px;transform: rotate(20deg);}
   100% {top:40px; left: 320px;}
@@ -752,9 +752,9 @@ position: relative;
   0% {top:-1720px; left: 150px;}
   0% {top:-1570px; left: 150px; transform: rotate(-15deg);}
   100% {top:-1530px; left: 220px; transform: rotate(-15deg);}
-} */
+}
 /* анимация класс letters */
-/* @keyframes a1{
+ @keyframes a1{
   0% {top:70px; left:60px;}
   100% {top:260px; left:40px;transform: rotate(-20deg);}
 }
@@ -787,7 +787,7 @@ position: relative;
 @keyframes sign{
   0% {top:-1180px; left:1280px;}
   100% {top:-1020px; left: 1310px;}
-} */
+}
 
 /* анимация фрэйм 4 */
 @keyframes greenmana{
