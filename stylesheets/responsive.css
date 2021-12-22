@@ -1,7 +1,6 @@
 /* pc 1440*900 */
 @media all and (min-device-width: 1367px) and (max-device-width: 1440px){
 .site {width: 1440px; height: 3600px;}
-@import 'content.css';
 }
 /* pc 1920*1080 */
 @media all and (min-device-width: 1441px) and (max-device-width: 1920px){
@@ -30,6 +29,6 @@
 }
 /* andorid 360*640*/
 @media all and (max-device-width: 360px){
-.site {width: 360px; height: 1024px;}
+.site {width: 360px; height: 2560px;}
 @import 'animation_android.css';
 }
