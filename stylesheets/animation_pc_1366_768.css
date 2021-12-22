@@ -305,14 +305,10 @@
   .gtriangle {
     width: 180px;
     height: 190px;
-    display: block;
-    position: relative;
     top: -860px;
     left: 50px;
     background: url("../images/parts triangle green pc2.svg");
-    animation: gtriangle 1s cubic-bezier(.76,.71,.45,.81) forwards;
-    animation-delay: 5.4s;
-
+    animation-play-state: paused;
   }
   .gline1 {
     width: 170px;
@@ -321,7 +317,7 @@
     position: relative;
     top: -1475px;
     left: 175px;
-    background: url("../images/parts line green pc2.png");
+    background: url("../images/line.png");
     animation: gline1 1s cubic-bezier(.76,.71,.45,.81) forwards;
     animation-delay: 5.2s
   }
@@ -333,7 +329,7 @@
     top: -1450px;
     left: 390px;
     transform: rotate(30deg);
-    background: url("../images/parts line green pc2.png");
+    background: url("../images/line.png");
     animation: gline2 1s cubic-bezier(.76,.71,.45,.81) forwards;
     animation-delay: 5.2s
   }
@@ -449,12 +445,9 @@
   .a1 {
     width: 160px;
     height: 250px;
-    display: block;
-    position: relative;
     top: 440px;
     left: 30px;
-    animation: a1 1s cubic-bezier(.76,.71,.45,.8) forwards;
-    animation-delay: 5.8s;
+    animation-play-state: paused;
   }
   .f1 {
     width: 320px;
@@ -497,8 +490,7 @@
     top: -660px;
     left: 645px;
     transform: rotate(-30deg);
-    animation: a2 1s cubic-bezier(.76,.71,.45,.81) forwards;
-    animation-delay: 5.2s
+    animation-play-state: paused;
   }
   .f2 {
     width: 80px;
@@ -519,8 +511,7 @@
     top: -990px;
     left: 1050px;
     transform: rotate(-40deg);
-    animation: t 1s cubic-bezier(.76,.71,.45,.81) forwards;
-    animation-delay: 5s;
+    animation-play-state: paused;
   }
   .sign {
     width: 80px;
@@ -530,8 +521,7 @@
     top: -1210px;
     left: 1240px;
     transform: rotate(20deg);
-    animation: sign 1s cubic-bezier(.76,.71,.45,.81) forwards;
-    animation-delay: 5s;
+    animation-play-state: paused;
   }
   /* фрэйм 4 */
   .frame4 {
