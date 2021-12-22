@@ -82,6 +82,7 @@
     left: 320px;
     transform: rotate(-30deg);
     background: url("../images/button tbl.svg");
+    animation-delay: 5.0s;
   }
   .button3 {
     width: 60px;
@@ -148,6 +149,7 @@
     left: 90px;
     transform: rotate(-40deg);
     background: url("../images/earings g tbl.svg");
+    animation-delay: 5.4s;
 
   }
   .jug {
@@ -157,6 +159,7 @@
     left: 245px;
     background: url("../images/jug tbl.svg");
     transform: rotate(-130deg);
+    animation-delay: 6.0s;
 
   }
   .skirt {
@@ -166,6 +169,7 @@
     left: 160px;
     transform: rotate(-55deg);
     background: url("../images/skirt tbl.svg");
+    animation-delay: 6.0s;
 
   }
   /* класс части зелёные */
@@ -224,7 +228,7 @@
   }
   .gline1 {
     width: 200px;
-    height: 100px;
+    height: 120px;
     top: -890px;
     left: 140px;
     background: url("../images/parts line green iph.svg");
@@ -306,83 +310,89 @@
     100% {left: 170px; transform: rotate(-15deg);}
   }
   /* анимация класс стафф */
-   /* @keyframes ribbon{
-    0% {top:490px; left: -30px;}
-    100% {top: 600px; left: -80px;}
-  } */
-  /* @keyframes button1{
-    0% {top:320px; left: 260px;}
-    100% {top: 520px; left: 190px;}
-  } */
-  /* @keyframes button2{
-    0% {top:-64px; left: 310px;}
-    100% {top:240px; left: 390px;}
-  } */
-  /* @keyframes button3{
-    0% {top:330px; left: 570px;}
-    100% {top:430px; left: 460px;transform: rotate(0deg);}
-  } */
-  /* @keyframes busket{
-    0% {top:60px; left: -100px;}
-    100% {top:170px; left: -140px;}
-  } */
-  /* @keyframes mask{
-    0% {top:-980px;left: 360px;}
-    100% {top:-630px;left: 420px; transform: rotate(0deg);}
-  } */
-  /* @keyframes vudu{
-    0% {top:-1420px; left: -40px;}
-    100% {top:-1220px; left: -40px; transform: rotate(0deg);}
-  } */
-  /* @keyframes earingy{
-    0% {top:-1500px; left: 425px;}
-    100% {top:-1300px; left: 465px;}
-  } */
-  /* @keyframes earingg1{
-    0% {top:-1950px; left: 465px;}
-    100% {top:-1610px; left: 435px;}
-  } */
-  /* @keyframes earingg2{
-    0% {top:-2250px; left: 480px;}
-    100% {top:-1850px; left: 500px;}
-  } */
-  /* @keyframes jug{
-    0% {  top: -2510px; left: 320px;}
-    100% {top:-2180px; left: 300px;}
-  } */
-  /* @keyframes skirt{
-    0% {top:-2270px; left: 170px;}
-    100% {top:-2230px; left: 90px;}
-  } */
+   @keyframes ribbon{
+    0% {top:750px; left: -90px;}
+    100% {top: 820px; left: -120px;}
+  }
+  @keyframes button1{
+    0% {top:470px; left: 160px;}
+    100% {top: 690px; left: 245px; transform: rotate(-60deg);}
+  }
+  @keyframes button2{
+    0% {top:725px; left: 320px;}
+    100% {top:945px; left: 290px;}
+  }
+  @keyframes button3{
+    0% {top:30px; left: 170px;}
+    100% {top:160px; left: 210px;transform: rotate(0deg);}
+  }
+  @keyframes busket{
+    0% {top:-140px; left: -150px;}
+    100% {top:50px; left: -110px; transform: rotate(95deg);}
+  }
+  @keyframes mask{
+    0% {top:-900px;left: 110px;}
+    100% {top:-480px;left: 165px;}
+  }
+  @keyframes vudu{
+    0% {top:-1370px;}
+    100% {top:-1090px; transform: rotate(45deg);}
+  }
+  @keyframes earingy{
+    0% {top:-1190px; left: 0px;}
+    100% {top:-1020px; left: 50px;}
+  }
+  @keyframes earingg1{
+    0% {top:-1680px; }
+    100% {top:-1270px; }
+  }
+  @keyframes earingg2{
+    0% {top: -1375px; left: 90px;}
+    50% {top: -1205px; left: 140px; transform: rotate(-90deg);}
+    100% {top:-1105px; left: 270px;}
+  }
+  @keyframes jug{
+    0% {  top: -1940px; left: 245px;}
+    100% {top:-1520px; left: 305px;}
+  }
+  @keyframes skirt{
+    0% {top:-2020px; left: 160px;}
+    50% {top:-1900px; left: -80px; transform: rotate(-120deg);}
+    100% {top:-1750px; left:-20px; transform: rotate(-55deg);}
+  }
   /* анимация класс gparts */
-  /* @keyframes ghead{
-    0% {top:45px; left: -60px;}
-    100% {top: 160px; left: -90px; transform: rotate(65deg);}
-  } */
-  /* @keyframes garmr{
-    0% {top:295px; left:210px;}
-    100% {top:350px; left: 190px;}
-  } */
-/*
+  @keyframes ghead{
+    0% {top:110px; left: 70px;}
+    50% {transform: rotate(40deg);}
+    100% {top: 300px; left: -70px; transform: rotate(20deg);}
+  }
+  @keyframes garmr{
+    0% {top:-20px; left:-40px;}
+    50% {top:-20px; left: 50px; transform: rotate(-20deg);}
+    100% {top:140px; left: 160px;}
+  }
   @keyframes glegs{
-    0% {top:-500px; left:40px;}
-    100% {top:-390px; left: 90px; transform: rotate(15deg);}
-  } */
+    0% {top:-80px; left:-120px;}
+    100% {top:-30px; left:-130px;}
+  }
+  @keyframes gneck{
+    0% {top:-680px; left:130px;}
+    50% {top:-640px; transform: rotate(-90deg);}
+    100% {top:-530px; left: 90px;transform: rotate(-130deg);}
+  }
 
-  /* @keyframes gtriangle{
-    0% {top:-1170px;}
-    100% {top:-1010px;}
-  } */
-  /* @keyframes gline1{
-    0% {top:-1155px; left: 445px;}
-    100% {top:-975px; left: 480px;}
-  } */
-  /* @keyframes gline2{
-    0% {top:-1500px; left: 120px;}
-    100% {top:-1520px; left: 120px; transform: rotate(30deg);}
-  } */
-
-
+  @keyframes gtriangle{
+    0% {top:-950px;}
+    100% {top:-850px; transform: rotate(200deg);}
+  }
+  @keyframes gline1{
+    0% {top:-890px; left: 140px;}
+    100% {top:-820px; left: 160px;}
+  }
+  @keyframes gline2{
+    0% {top:-940px;}
+    100% {top:-850px;}
+  }
   /* анимация фрэйм 4 */
   @keyframes greenmana{
     0% {background-position: 0 top;}
@@ -392,6 +402,4 @@
     0% {background-position: 0 top;}
     50% {background-position: -586px top;}
   }
-
-
 }
